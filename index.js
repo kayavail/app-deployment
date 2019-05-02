@@ -5,7 +5,8 @@ const mongoose = require('mongoose')
 const Posts = require('./models/post')
 
 
-mongoose.connect('mongodb+srv://crudUser:crudPass@cluster0-fdmkk.mongodb.net/records?retryWrites=true', { useNewUrlParser: true,
+mongoose.connect('mongodb+srv://mycluster:mongodb1"!"@cluster0-klcrr.mongodb.net/test?retryWrites=true
+', { useNewUrlParser: true,
 useCreateIndex: true }, ()=>{
  console.log('Connected to the database');
 })
